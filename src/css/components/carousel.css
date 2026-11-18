@@ -63,3 +63,24 @@ img {
   list-style: none;
   padding: 0;
 }
+
+.carousel {
+  position: relative;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  background-color: white;
+}
+
+.carousel__button--prev {
+  left: 8px;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.carousel__button--next {
+  right: 8px;
+  transform: translateY(-50%);
+}
