@@ -38,8 +38,14 @@ img {
 }
 
 .carousel__item {
-  flex: 1 0 260px;
+  flex: 0 0 80%;
   scroll-snap-align: center;
+}
+
+@media (min-width: 768px) {
+  .carousel__item {
+    flex: 0 0 40%;
+  }
 }
 
 .carousel__item img {
